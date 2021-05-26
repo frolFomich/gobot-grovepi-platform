@@ -6,7 +6,7 @@ package main
 
 import (
 	"fmt"
-	"gobot-grovpi-platform/pkg/gobot-driver"
+	driver "gobot-grovepi-platform/pkg/gobot-driver"
 	"time"
 
 	"gobot.io/x/gobot"
@@ -16,7 +16,7 @@ import (
 
 func main() {
 	r := raspi.NewAdaptor()
-	gp := gobot_examples.NewGrovePiDriver(r)
+	gp := driver.NewGrovePiDriver(r)
 	lcd := old.NewGroveLcdDriver(r, old.WithAddress(1))
 
 	work := func() {

@@ -6,7 +6,7 @@ package main
 
 import (
 	"fmt"
-	"gobot-grovpi-platform/pkg/gobot-driver"
+	driver "gobot-grovepi-platform/pkg/gobot-driver"
 	"gobot.io/x/gobot"
 	"gobot.io/x/gobot/drivers/gpio"
 	"gobot.io/x/gobot/drivers/i2c"
