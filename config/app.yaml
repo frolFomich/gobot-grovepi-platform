@@ -1,0 +1,48 @@
+version: 0.0.0
+services:
+  - name: rest-service
+    config:
+      port: 8080
+platform:
+  bus: 1
+  address: 4
+  devices:
+    - name: lightSensor
+      driver: GroveLightSensorDriver
+      pin: A2
+    - name: redLed
+      driver: GroveLedDriver
+      pin: D3
+      config:
+        color: green
+    - name: greenLed
+      driver: GroveLedDriver
+      pin: D4
+      config:
+        color: green
+    - name: blueLed
+      driver: GroveLedDriver
+      pin: D5
+      config:
+        color: green
+    - name: lcd
+      driver: GroveLcdDriver
+      pin: i2c-1
+    - name: usranger
+      driver: GroveUltrasonicRangerDriver
+      pin: D6
+    - name: dht
+      driver: GroveTemperatureAndHumidityDriver
+      pin: D7
+    - name: button
+      driver: GroveButtonDriver
+      pin: D2
+    - name: rotary
+      driver: GroveRotaryDriver
+      pin: A1
+    - name: sound
+      driver: GroveSoundSensorDriver
+      pin: A0
+    - name: buzzer
+      driver: GroveBuzzerDriver
+      pin: D8
