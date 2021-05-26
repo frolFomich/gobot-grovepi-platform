@@ -17,5 +17,5 @@ To build this application Go environment should be setup
 
 ### Disclaimer
 
-Working with such hardware like RaspberryPi/GrovePi/other may be dangerous for inexperienced people
+Working with such hardware like RaspberryPi/GrovePi/other may be dangerous for inexperienced people.
 Author isn't liable for any potential damages caused by this software. Use it with caution at your own risk 
