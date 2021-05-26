@@ -13,7 +13,7 @@ To build this application Go environment should be setup
 1. Copy built command and config file `config/app.yaml` to RaspberryPi
 1. Execute following command
 > main -f app.yaml
-1. You may access the robeaux React.js interface with Gobot by navigating to http://localhost:3000/index.html.
+1. You may access the robeaux React.js interface with Gobot by navigating to http://localhost:8080/index.html.
 
 ### Disclaimer
 
