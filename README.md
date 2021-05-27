@@ -13,7 +13,7 @@ To build this application Go environment should be setup
 #### - Docker image
 
 To build docker image on macOS execute following command
-> docker buildx build --platform linux/arm --rm --tag <your-docker-registry>/gobot-grovepi-platform:latest --push -f deploy/Dockerfile .
+> docker buildx build --platform linux/arm --rm --tag `your-docker-repository`/gobot-grovepi-platform:latest --push -f deploy/Dockerfile .
 
 ### How to run
 
@@ -26,7 +26,7 @@ To build docker image on macOS execute following command
 
 #### - Docker image
 
-> docker run --rm --privileged -p 3000:3000 <your-docker-registry>/gobot-grovepi-platform:latest
+> docker run --rm --privileged -p 3000:3000 `your-docker-repository`/gobot-grovepi-platform:latest
 
 ### Disclaimer
 
