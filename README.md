@@ -6,14 +6,14 @@
 To build this application Go environment should be setup
 1. Clone this repo to go/src dir
 1. Execute following command in root of cloned repo directory
-> export GOOS=linux GOARCH=arm64; go build cmd/grovepi/main.go
+> export GOOS=linux GOARCH=arm64; go build -o gobot-grovepi-platform cmd/grovepi/main.go
 
 ### How to run
 
 1. Copy built command and config file `config/app.yaml` to RaspberryPi
 1. Execute following command
 > main -f app.yaml
-1. You may access the robeaux React.js interface with Gobot by navigating to http://localhost:8080/index.html.
+1. You may access the robeaux React.js interface with Gobot by navigating to http://localhost:3000/index.html.
 
 ### Disclaimer
 
